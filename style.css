@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Container */
+
+.container {
+    padding-top: 20px;
+    background-color: #601699;
+    color: #ffffff;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    display: flex;
+    margin-left: 120px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo-img {
+    width: 100px;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    flex: 2;
+}
+
+.nav-list-items {
+    margin-left: 50px;
+}
+
+.home-active {
+    color: #0a7fad;
+    cursor: pointer;
+}
+
+.home-active::before {
+    content: '';
+    height: 1px;
+    width: 42px;
+    position: absolute;
+    top: 68px;
+    background-color: #dc16ea;
+}
+
+.nav-btn {
+    flex: 1;
+}
+
+.btn {
+    background-color: #00acee ;
+    border: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.container-main-section {
+    display: flex;
+}
+
+.container-left-section{
+    flex: 1;
+    margin-left: 135px;
+    margin-top: 100px;
+}
+
+.container-right-section {
+    flex: 1;
+}
+
+.container-heading {
+    font-size: 50px;
+    width: 400px;
+    letter-spacing: 1px;
+    transform: scaleX(110%);    
+}
+
+.container-description {
+    transform: scaleX(110%);    
+    font-size: 15px;
+    width: 380px;
+    margin-top: 30px;
+}
+
+.container-img {
+    width: 900px;
+    height: 580px;
+}
+
+/* SAAS details  */
+
+.saas-details {
+    display: flex;
+}
+
+.saas-details-left {
+    flex: 2;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.saas-details-right {
+    margin-top: 150px;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.saas-img {
+    width: 650px;
+    height: 600px;
+}
+
+.saas-heading {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.arrow {
+    display: inline;
+    width: 16px;
+    margin-right: 10px;
+}
+
+span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.details-list-items {
+    list-style-type: none;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    position: relative;
+    right: 30px;
+}
+
+.list-item-description {
+    font-size: 14px;
+    width: 300px;
+}
+
+/* Feature section  */
+
+.features-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.feature-heading {
+    font-size: 30px;
+    width: 350px;
+    position: relative;
+    left: 500px;
+    margin-bottom: 50px;
+}
+
+.feature-cards {
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 40px;
+    gap: 30px;
+    width: 700px;
+    height: 220px;
+}
+
+.feature-card {
+    flex: 1;
+    border-radius: 20px;
+    position: relative;
+    left: 220px;
+    padding-top: 20px;
+    box-shadow: 2px 2px 2.4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.card-img{
+    width: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-details {
+    padding: 5px 20px 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+#card-active {
+    background-color: #601699;
+    color: #ffffff;
+    padding-bottom: 12px;
+}
+
+.card-heading {
+    font-size: 18px;
+    margin-bottom: 5px;  
+}
+
+.card-descripition {
+    font-size: 12px;
+    width: 120px;
+}
+
+.card-heading-clean-code::before {
+    content: '';
+    width: 90px;
+    height: 90px;
+    background-color: #FFE5CA;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    z-index: -1;
+}
+
+.card-heading-data-analytics::before {
+    content: '';
+    width: 90px;
+    height: 90px;
+    background-color: #FFF2CC;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    z-index: -1;
+}
+
+.card-heading-secured::before {
+    content: '';
+    width: 90px;
+    height: 90px;
+    background-color: #d0fbee;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    z-index: -1;
+}
+
+.card-heading-support::before {
+    content: '';
+    width: 90px;
+    height: 90px;
+    background-color: #FDE2F3;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    z-index: -1;
+}
